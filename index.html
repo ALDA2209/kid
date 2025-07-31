@@ -1,132 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alda</title>
+    <link rel="stylesheet" href="estilo.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.>
 </head>
 <body>
-
+    <!--encabezado-->
     <header>
-    <h1>Empresa Juridica</h1>
-    <img src="img/portada.png" alt="...." style="width: 700px; height: 250px;">
-    <p>Somos una empresa dedicada a ofrecer servicios legales y con garantia de plazos para un mejor servicio </p> 
+        <div class="encabezado">
+        <h1>Empresa Juridica</h1>
+        </div>
+        <div class="banner">
+            <img src="img/portadas.png" alt="banner">
+            <p>Brindamos servicios legales con garantia de plazos para tu tranquilidad</p>
+        </div>
     </header>
-    
-    <!-- primera seccion -->
-    <section>
-     <div>
-       <h2>Asesoria Legal</h2>
-       <h2> Area penal </h2>  
-       <p>  
-        Dedicados a todo procedimiento penal, desde la investigacion hasta la sentencia 
-       </p>
-       <img src="img/penal.png" alt="...." style="width: 200px; height: 120px">
-       <ul>
-        <li> Investigacion penal </li>
-        <li> Procedimiento penal </li>
-        <li> Sentencia penal </li>
-        <li> Apelaciones </li>
-       </ul>
 
-       <h3> Medicina Legal </h3>
-       <p>
-        Dedicados a la medicina legal, contamos con los mejores peritos del pais
-       </p>
-       <img src="img/MedicinaLegal.png" alt="...." style="width: 200px; height: 120px">
-     </div>
+    <!--primera seccion-->
+    <section>
+        <div id="penal" class="primera-seccion">
+            <h2>Asesoria Legal</h2>
+            <h3>Area Penal</h3>
+            <p>Dedicados a todo procedimiento penal, desde la investigacion hasta la sentencia</p>
+            <img src="img/penal.png" alt="..." style="width: 200px; height: 120px">
+            <ul class="lista">
+            <br><li>Investigacion penal</li>
+            <br><li>Procedimiento penal</li>
+            <br><li>Sentencia penal</li>
+            <br><li>Apelaciones</li>
+            </ul>
+        </div>
+        <div id="legal" class="primera-seccion-segunda">
+            <h4>Medicina Legal</h4>
+            <p>Dedicados a la medicina legal, contamos con los mejores peritos del pais</p>
+            <img src="img/MedicinaLegal.png" alt="..." style="width: 200px; height: 120px">
+        </div>
     </section>
 
     <!--segunda seccion-->
-
     <section>
-       <div>
-       <h2> Area civil </h2>
-       <p>
-        Dedicados a todo procedimiento civil, desde la demanda hasta la sentencia
-       </p>
-       <img src="img/civil.png" alt="...." style="width: 200px; height: 120px">
-       <ul>
-        <li> Demandas </li>
-        <li> Procedimiento civil </li>
-        <li> Sentencia civil </li>
-        <li> Apelaciones </li>
-       </ul>
-       
-       <h3> Derecho Laboral </h3>
-       <p>
-         Dedicados a todo procedimiento laboral, desde la demanda hasta la sentencia, cero papeleo y rapido procedicimiento 
-       </p>
-       <img src="img/DerechoLaboral.png" alt="...." style="width: 200px; height: 120px">
-       </div>
+        <div id="civil-laboral" class="segunda-seccion">
+            <h3>Area Civil</h3>
+            <p>Dedicados a todo procedimiento civil, desde la demanda hasta la sentencia</p>
+            <img src="img/civil.png" alt="..." style="width: 200px; height: 120px">
+            <ul>
+            <br><li>Demanda</li>
+            <br><li>Procedimiento civil</li>
+            <br><li>Sentencia civil</li>
+            <br><li>Apelaciones</li>
+            </ul>
+        </div>
+        <div id="laboral" class="segunda-seccion-segunda">
+            <h4>Derecho Laboral</h4>
+            <p>Dedicados a todo procedimiento laboral, desde la demanda hasta la sentencia, cero papeleo y rapido procedimiento</p>
+            <img src="img/DerechoLaboral.png" alt="..." style="width: 200px; height: 120px">
+        </div>
     </section>
 
-     <!--tercera seccion-->
-
+    <!--tercera seccion-->
     <section>
-       <div>
-       <h2> Area Constitucional </h2>
-       <p>Dedicados a todo procedimiento constitucional, a defender los derechos fundamentales de la ciudadania</p>
-       <img src="img/DerechoConstitucional.png" alt="...." style="width: 200px;">
-       </div>
-       
+      <div id="constitucional" class="tercera-seccion">
+        <h3>Area Constitucional</h3>
+        <p>Dedicados a todo procedimiento constitucional, a defender los derechos fundamentales de las personas</p>
+       <img src="img/DerechoConstitucional.png" alt="..." style="width: 200px; height: 120px">
        <br>
-       <b>Defendiendo nuestros derechos fundamentales por medio de:</b>
-       </br>
-
-       <div>
-       <ul> 
-        <b><li> Amparo </li></b>
-        <p>Dedicado a defender los Derechos fundamentales del sujeto de Derecho</p>
-        
-        <b><li> Habeas Corpus </li></b>
-        <p> Vela por la vida y la libertad de los ciudadanos </p>
-        
-        <b><li> Habeas Data </li></b>
-        <p> Protege la privacidad y seguridad de los datos personales </p>
-       
-        <b><li> Inconstitucionalidad </li></b>
-        <p> Vela por la legalidad y la constitucionalidad de las leyes </p>
+       <br><b>Defendiendo los derechos fundamentales por medio de:</b>
+       <br>
+       <ul>
+         <b><li>Amparo</li></b>
+         <p>Dedicado a defender los Derechos fundamentales de las personas</p>
+         <b><li>Habeas Corpus</li></b>
+         <p>Velar por la vida y la libertad de los ciudadanos</p>
+         <b><li>Habeas Data</li></b>
+         <p>Proteger la privacidad de las personas</p>
+         <b><li>Inconstitucionalidad</li></b>
+         <p>Velar por la legalidad y la constitucionalidad de las leyes</p>
        </ul>
-       </div>
+    </div>
     </section>
 
-     <!--formulario-->
-
-    <section>
-       <div>
-       <h2> Contactanos </h2>
-       <p> A traves del siguiente Formulario... </p>
-        <form action="#" method="post">
+    <!--formulario-->
+    <section id="formulario" class="formulario-seccion">
+        <h2>¿Necesitas ayuda legal?</h2>
+        <b>Completa el siguiente formulario y nos pondremos en contacto contigo:</b><br><br>
+        <form>
             <label for="nombre">Nombre completo:</label><br>
             <input type="text" id="nombre" name="nombre" required><br><br>
 
-            <label for="email">Correo electrónico:</label><br>
+            <label for="dni">DNI:</label><br>
+            <input type="number" id="dni" name="dni" required><br><br>
+
+            <label for="email">Correo electronico:</label><br>
             <input type="email" id="email" name="email" required><br><br>
 
-            <label for="telefono">Teléfono:</label><br>
-            <input type="tel" id="telefono" name="telefono" required><br><br>
+            <label for="celular">Celular:</label><br>
+            <input type="cel" id="celular" name="celular" required><br><br>
 
-
-            <label for="mensaje">Mensaje:</label><br>
+            <label for="mensaje">Mensaje</label><br>
             <textarea id="mensaje" name="mensaje" required></textarea><br><br>
-            
-            <input type="submit" value="Enviar">
+
+            <label for="aceptas-terminos">
+            <input type="checkbox" id="aceptas-terminos" name="aceptas_terminos" required>
+            Acepto los terminos y condiciones
+            </label> 
+            <br><br><input type="submit" value="Enviar">
         </form>
-        </div>
     </section>
 
-     <!--footer-->
-    <section>
+    <!--footer-->
     <footer>
-        <div>
-            <p><b>Sobre nosotros - Contacto - Politica de privacidad</b></p> 
-        </div>
-        <p> 
-          <b> Derechos Reservados Alda - 2025 </b> 
-        </p>
-        </div>
+       <br> <div class="footer-inner">
+            <p><strong>Sobre nosotros - Contacto - Politica de privacidad</strong></p>
+            <p><strong>Derechos Reservados Alda - 2025</strong></p>
+        </div> 
     </footer>
-    </section>
 </body>
 </html>

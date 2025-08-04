@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alda</title>
     <link rel="stylesheet" href="estilo.css">
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;400;600;700&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!--encabezado-->
     <header>
         <div class="encabezado">
-        <h1>Empresa Juridica</h1>
+        <h1>Estudio Jurídico Penal Alda</h1>
         </div>
         <div class="banner">
             <img src="img/portadas.png" alt="banner">
-            <p>Brindamos servicios legales con garantia de plazos para tu tranquilidad</p>
+            <p>Somos un estudio jurídico especializado exclusivamente en Derecho Penal y sus ramas.  
+                Brindamos defensa y asesoría integral en casos de delitos, peritajes forenses y protección de derechos fundamentales.</p>
         </div>
     </header>
 
     <!--primera seccion-->
     <section>
+             <h2>Asesoria Legal</h2>
         <div id="penal" class="primera-seccion">
-            <h2>Asesoria Legal</h2>
             <h3>Area Penal</h3>
             <p>Dedicados a todo procedimiento penal, desde la investigacion hasta la sentencia</p>
             <img src="img/penal.png" alt="..." style="width: 200px; height: 120px">
@@ -36,27 +37,29 @@
         </div>
         <div id="legal" class="primera-seccion-segunda">
             <h4>Medicina Legal</h4>
-            <p>Dedicados a la medicina legal, contamos con los mejores peritos del pais</p>
+            <p>  La Medicina Legal aporta peritajes forenses clave en el proceso penal,
+                analizando lesiones, causas de muerte y otras evidencias científicas para fortalecer tu caso.</p>
             <img src="img/MedicinaLegal.png" alt="..." style="width: 200px; height: 120px">
         </div>
     </section>
 
     <!--segunda seccion-->
     <section>
-        <div id="civil-laboral" class="segunda-seccion">
-            <h3>Area Civil</h3>
-            <p>Dedicados a todo procedimiento civil, desde la demanda hasta la sentencia</p>
+        <div id="delitos-economicos" class="segunda-seccion">
+            <h3>Delitos Económicos</h3>
+            <p> Nos especializamos en crímenes contra el patrimonio: estafa, malversación, corrupción y lavado de activos.</p>
             <img src="img/civil.png" alt="..." style="width: 200px; height: 120px">
-            <ul>
-            <br><li>Demanda</li>
-            <br><li>Procedimiento civil</li>
-            <br><li>Sentencia civil</li>
-            <br><li>Apelaciones</li>
+            <ul class="lista2">
+            <br><li>Estafa</li>
+            <br><li>Corrupcion</li>
+            <br><li>Lavado de activos</li>
+            <br><li>Delitos informáticos</li>
             </ul>
         </div>
-        <div id="laboral" class="segunda-seccion-segunda">
-            <h4>Derecho Laboral</h4>
-            <p>Dedicados a todo procedimiento laboral, desde la demanda hasta la sentencia, cero papeleo y rapido procedimiento</p>
+        <div id="delitos-juveniles" class="segunda-seccion-segunda">
+            <h4>Delitos Juveniles</h4>
+            <p> Asesoramos en procedimientos penales para menores de edad,
+                enfocándonos en medidas socioeducativas y reinserción efectiva.</p>
             <img src="img/DerechoLaboral.png" alt="..." style="width: 200px; height: 120px">
         </div>
     </section>
@@ -70,7 +73,8 @@
        <br>
        <br><b>Defendiendo los derechos fundamentales por medio de:</b>
        <br>
-       <ul>
+       <br>
+       <ul class="lista3">
          <b><li>Amparo</li></b>
          <p>Dedicado a defender los Derechos fundamentales de las personas</p>
          <b><li>Habeas Corpus</li></b>
@@ -84,10 +88,10 @@
     </section>
 
     <!--formulario-->
+            <h2>¿Necesitas ayuda legal?</h2>
     <section id="formulario" class="formulario-seccion">
-        <h2>¿Necesitas ayuda legal?</h2>
         <b>Completa el siguiente formulario y nos pondremos en contacto contigo:</b><br><br>
-        <form>
+        <form id="contactForm">
             <label for="nombre">Nombre completo:</label><br>
             <input type="text" id="nombre" name="nombre" required><br><br>
 
@@ -107,16 +111,33 @@
             <input type="checkbox" id="aceptas-terminos" name="aceptas_terminos" required>
             Acepto los terminos y condiciones
             </label> 
-            <br><br><input type="submit" value="Enviar">
+            <br><br><input type="submit" value="Enviar"> 
         </form>
+        <div id="formMessage" class="form-message"></div>
     </section>
 
     <!--footer-->
-    <footer>
-       <br> <div class="footer-inner">
-            <p><strong>Sobre nosotros - Contacto - Politica de privacidad</strong></p>
-            <p><strong>Derechos Reservados Alda - 2025</strong></p>
-        </div> 
-    </footer>
+<footer>
+  <div class="footer-inner container">
+    <nav class="footer-links">
+      <a href="#sobre-nosotros">Sobre nosotros</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#politica-privacidad">Política de privacidad</a>
+    </nav>
+    <div class="footer-copy">
+      <p>© 2025 Estudio Jurídico Penal Alda. Todos los derechos reservados.</p>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/tuPagina" aria-label="Facebook" target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/tuPerfil" aria-label="Instagram" target="_blank" rel="noopener">
+        <i class="fa fa-instagram"></i>
+      </a>
+    </div>
+    </div>
+</footer>
+ <!-- Tu script externo -->
+  <script src="script.js" defer></script>
 </body>
 </html>
